@@ -1,0 +1,283 @@
+@CHARSET "UTF-8";
+body{
+  min-height:800px;
+  background-color: #f9fcfc;
+}
+#main-content{
+  position:relative;
+  left:0%;
+  width:100%;
+  padding:20px 80px;
+
+}
+.first_row{
+  position:relative;
+  left:0%;
+  padding:20px 0px;
+  background-color: #3399CC;
+}
+.title_div{
+  position: relative;
+  width:50%;
+  padding:10px;
+}
+.title_div h3{
+  position: relative;
+  top:-15px;
+  padding: 0px 30px;
+  font-size: 300%;
+}
+.title_div h3 .c_model{
+  font-size: 50%;
+  padding-left: 20px;
+  color:burlywood;
+}
+.c_model i{
+  font-size: 180%;
+}
+.progress{
+  position: relative;
+  top:2px;
+  padding:0px;
+  border-radius: 0px !important;;
+  height:5px;
+  margin-bottom: 2px;
+  color: gold;
+}
+#scan i{
+  font-size: 150%;
+  color:#00cc33;
+}
+#scan{
+  color: #fff;
+}
+.first_row .howmuch{
+  position: relative;
+  left:50px ;
+  top:-10px;
+  font-size: 150%;
+  color: #fff;
+}
+.to_home{
+  position: absolute;
+  right:240px;;
+  top:50px;
+  color: #fff;
+}
+.to_ladaoba{
+  position: absolute;
+  right:100px;;
+  top:50px;
+  color: #fff;
+}
+
+.workspace{
+  position: relative;
+  padding: 0px 20px;
+  top:20px;
+  min-height: 800px;
+  background-color: #fff;
+  box-shadow: 0px 0px 4px #ffcc99 ;
+}
+.scanning_pause{
+  position: absolute;
+  text-align: center;
+  left:0px;
+  background-color: rgba(0,0,0,0.6);
+  widtH:100%;
+  height:100%;
+  z-index: 1000;
+  display: none;
+}
+.tip_div{
+  position: relative;
+  width:400px;
+  background-color: #fff;
+  padding:50px;
+  border: 2px solid #3399CC;
+  border-radius: 5px;
+  left:30%;
+  top:200px;
+}
+.tip_div h3{
+  color: grey;
+  font-size: 22px;
+}
+ul{
+  margin:0px;
+  padding:0px 0px;
+  list-style-type:none;
+}
+
+.filter_div{
+  position: absolute;
+  top:100px;
+  width:60%;
+  height:100%;
+  padding:20px;
+  
+}
+.filter_div001{
+  position: absolute;
+  top:60px;
+  width:100%;
+  height:90%;
+  padding:20px;
+  
+}
+.filter-line{
+  position: relative;
+}
+.filter_ul .selected_filter{
+  border:1px solid #33cc66;
+  color:#fff;
+  border-radius:2px;
+}
+.level_title{
+  margin-top: 10px;
+}
+.filter_ul{
+  position: relative;
+  width:100%;
+  display: block;
+  margin:10px;
+}
+.filter_ul li{
+  padding:0px -0px;
+  display: inline-table;
+  min-width:160px;
+  margin-bottom: 20px;
+}
+.filter-line .selected{
+  border: 1px solid #f61;
+}
+.more{
+  position: absolute;
+  right: 1%;
+  top:45px;
+  z-index: 100;
+}
+.hideit{
+  display: none;
+}
+.filter_ul .lang_text{
+   display: inline-table;
+}
+.filter_key{
+  padding:2px 6px;
+  margin: 0px 20px;
+  color:#B0A59F;
+}
+.filter_selected{
+  background-repeat:  no-repeat;
+  color:#cc9999;
+  padding:5px 10px;
+  font-size:16px;
+}
+
+.selected_ul{
+  margin-top: 20px;
+  z-index: 1000;
+}
+.selected_ul li{
+  display: inline-table;
+  margin:  10px 0px;
+  
+}
+.entypo-dot{
+  color: grey ;
+}
+.selected_ul .entypo-address,.selected_ul .entypo-home{
+  color: #993300;
+}
+.selected_div{
+  position: absolute;
+  padding:10px 20px;
+  z-index: 1000;
+}
+
+.qr{
+  position: absolute;
+  top:0px;
+  right: 0px;
+  width:33%;
+  height:100%;
+  background-color: #fff ;
+  text-align: center;
+  padding:0px;
+  background-image: url(../images/a001.png);
+  background-repeat: repeat-x;
+  margin: 0px;
+  z-index: 0;
+}
+.qr001{
+  position: absolute;
+  top:100px;
+  right:33%;
+  width:33%;
+ 
+  background-color: #fff ;
+  text-align: center;
+  padding:0px;
+  //background-image: url(../images/a001.png);
+  background-repeat: repeat-x;
+  margin: 0px;
+}
+.img_home{
+  position: relative;
+  left: 10%;
+  top:200px;
+  padding:30px 30px;
+  border:1px solid #ccc;
+  box-shadow: 0px 0px 5px ;
+  width:67%;
+ 
+}
+.img_home001{
+  position: relative;
+  left: 0%;
+  top:10px;
+  padding:30px 30px;
+  border:1px solid #ccc;
+  box-shadow: 0px 0px 5px ;
+  width:100%;
+ 
+}
+.img_home h4{
+  color: gold;
+}
+.img_home p{
+  color: red;
+}
+.qr_footer{
+  padding-top:10px;
+}
+.img_home img,.img_home001 img{
+  width:90%;
+  height:90%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 1px;
+}
+.download_btn{
+  background-color: #cc3333 ;
+  color: #fff;
+  padding:3px 20px;
+  border-radius:2px;
+  box-shadow: 0px 0px 2px;
+}
+
+.card{
+  position: relative;
+  width:200px;
+  margin: 20px;
+}
+.card img{
+  padding:30px 20px;
+  width:180px;
+  border-radius:2px;
+  box-shadow: 0px 0px 1px #ccc;
+}
+.card p{
+  position: relative;
+  padding-top: 10px;
+}

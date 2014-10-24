@@ -1,0 +1,23 @@
+body{
+  min-height:940px;
+   background-color: #f9fcfc;
+}
+#main-content{
+  position:relative;
+  left:0%;
+  width:100%;
+  padding:20px 80px;
+
+}
+.title{
+  text-align: center;
+}
+.title h3{
+  font-size: 200%;
+  color: grey;
+  margin: 30px;
+}
+.tiles_home{
+  background-color: #fff;
+  padding:10px;
+}
